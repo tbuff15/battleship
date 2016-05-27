@@ -1,13 +1,9 @@
 <div style="text-align:center">
-<h>Oops! You missed my battleship!</h>
-</div>
-
+<h1>You already selected those coordinates. Try again.</h1>
 <%=@result%>
-
+</div>
 <form method = "POST" action ="/goagain">
 <input type="text" name="row" placeholder="guess the row (0-9)">
 <input type="text" name="column" placeholder="guess the column (0-9)">
 <input type="submit" value="GO">
 </form>
-
-
